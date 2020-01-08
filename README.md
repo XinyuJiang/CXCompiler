@@ -1,7 +1,8 @@
 # CXCompiler
-一个类C语言编译器
-***
-written by flex and yacc
-***
+CX is a language whose grammar is similar with C language.
+
+This program is a CX Compiler written by flex and yacc.
+
 run on mac os:
+
 ./cx -f filename
