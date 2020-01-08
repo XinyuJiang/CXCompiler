@@ -1,0 +1,15 @@
+/*----------------continue+for---------------*/
+{
+	int i;
+	int a;
+	int b;
+	a = 1;
+	b = 1;
+	for(i = 0; i < 10; i++){
+		a++;
+		continue;
+		b++;
+	}
+	read a;
+	read b;
+}

@@ -1,0 +1,13 @@
+{
+	int a;
+	int i;
+	int s;
+	a = 11;
+	i = 1;
+	s = 1;
+	while(i<=a){
+	s = s*i;
+	i = i+1;
+	}
+	read s;
+}

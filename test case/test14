@@ -1,0 +1,15 @@
+/*-------if else嵌套---------*/
+{
+	int a;
+	int b;
+	int c;
+	a = 5;
+	b = 6;
+	if(a == 6)
+		c = 1;
+	else if(a == 5 && b!= 6)
+		c = 2;
+	else
+		c = 3;
+	read c;
+}

@@ -1,0 +1,20 @@
+/*-------------case顺序执行----------*/
+{
+int a;
+int b;
+int c;
+a = 2;
+b = 3;
+c = 1;
+switch(a){
+	case 1:
+		b = 1;
+	case 5:
+		b = 2;
+		c = 3;
+	case 3:
+		b = 7;
+}
+	read b;
+	read c;
+}

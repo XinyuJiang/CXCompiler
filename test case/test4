@@ -1,0 +1,11 @@
+/*------------while+break+if------------*/
+{
+	int c;
+	c = 1;
+	while(c < 10){
+		c ++;
+		if(c == 6)
+			break;
+	}
+	read c;
+}

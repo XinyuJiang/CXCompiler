@@ -1,0 +1,12 @@
+/*-----------for+if+break-----------*/
+{
+	int i;
+	int a;
+	a = 1;
+	for(i = 0; i < 10; i++){
+		if(i == 6)
+			break;
+		a++;
+	}
+	read a;
+}

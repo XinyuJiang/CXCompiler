@@ -1,0 +1,24 @@
+{
+	int a;
+	int b;
+	int m;
+	int t1;
+	int t2;
+	int t;
+	a = 6;
+	b = 100;
+	if( a>b)
+		{m = a;
+		t = a;}
+	else
+		{m = b;
+		t = b;}
+	t1 = m%a;
+	t2 = m%b;
+	while(t1 != 0 || t2 != 0){
+		m = m+t;
+		t1 = m%a;
+		t2 = m%b;
+	}
+	read m;
+}

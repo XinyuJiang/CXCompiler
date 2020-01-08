@@ -1,0 +1,12 @@
+/*--------------repeat until + break + continue-------------*/
+{
+	int a;
+	a = 1;
+	repeat a++;
+		if( a == 6)
+			continue;
+		if(a == 8)
+			break;
+		read a;
+	until(a > 10)
+}

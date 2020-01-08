@@ -1,0 +1,23 @@
+/*-------------扩展运算符------------*/
+{
+	int a;
+	int b;
+	int c;
+	int d;
+	int e;
+	bool f;
+	a = 10;
+	b = 5;
+	c = 13;
+	d = 30;
+	e = a%b;
+	read e;
+	e = c^d;
+	read e;
+	f = odd d;
+	read f;
+	b++;
+	read b;
+	b--;
+	read b;
+}
